@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods_list/goods_list",
+    "pages/goods_detail/goods_detail",
+    "pages/cart/cart",
+    "pages/collect/collect",
+    "pages/order/order",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/feedback/feedback",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay",
+    "components/SearcchInput/SearcchInput",
+    "pages/categorys/categorys",
+    "components/Tabs/Tabs",
+    "pages/my_history/my_history",
+    "pages/address/address"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#D5265B",
+    "navigationBarTitleText": "帅华优购",
+    "enablePullDownRefresh": true,
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/首页.png",
+        "selectedIconPath": "images/tabbar/首页1.png"
+      },
+      {
+        "pagePath": "pages/categorys/categorys",
+        "text": "分类",
+        "iconPath": "images/tabbar/分类.png",
+        "selectedIconPath": "images/tabbar/分类1.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/tabbar/购物车.png",
+        "selectedIconPath": "images/tabbar/购物车1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/tabbar/我的.png",
+        "selectedIconPath": "images/tabbar/我的1.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#D5265B"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

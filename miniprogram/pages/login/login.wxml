@@ -1,0 +1,8 @@
+<view>
+  <button type="primary" plain open-type="getUserInfo" bindtap="handleGetUserInfo" > 登录 </button>
+    <navigator open-type="switchTab" url="/pages/index/index">
+    <button type="primary" plain  bindtap="back" > 回到首页 </button>
+    </navigator>
+  
+  
+</view>

@@ -1,0 +1,29 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange" >
+<view class="order_main">
+  <view 
+  wx:for="{{new_orders}}"
+  wx:key="order_id"
+   class="order_item">
+   <scroll-view scroll-x="true">
+   <view class="order_no_row">
+     <view class="order_no_text">订单编号</view>
+     <view class="order_no_value">{{item.modeCart[0].order_num}}</view>
+   </view>
+   <view class="order_price_row">
+     <view class="order_price_text">订单价格</view>
+     <view class="order_price_value">
+     ￥{{item.flag?item.goods_price*item.num:item.goods_price}}
+     </view>
+   </view>
+   <view class="order_time_row">
+     <view class="order_time_text">订单日期</view>
+     <view class="order_time_value">{{item.modeCart[0].order_time}}</view>
+   </view>
+   <view class="del_box">
+   <view class="del" bindtap="del" data-index="{{index}}">删除</view>
+    </view>
+   
+  </scroll-view>
+  </view>
+</view>
+</Tabs>

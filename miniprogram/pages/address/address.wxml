@@ -1,0 +1,18 @@
+  <!-- 收货地址 -->
+  <view class="revice_address_row">
+  <!-- 当收货地址 不存在 按钮显示  对象 空对象 bool类型也是true  -->
+  <view class="address_btn"  >
+    <button bindtap="handleChooseAddress" type="primary"  plain  >修改收货地址</button>
+  </view>
+  <!-- 当收货地址 存在 详细信息就显示 -->
+  <view  class="user_info_row" >
+    <view class="user_info">
+      <view>姓名：{{address.userName}}</view>
+      <view class="user_phone">电话：{{address.telNumber}}</view>
+      <view>地址：{{address.all}}</view>
+      <view class="tebie">邮政编码：{{address.postalCode}}</view>
+    </view>
+   
+  </view>
+  <view class="active"></view>
+</view>

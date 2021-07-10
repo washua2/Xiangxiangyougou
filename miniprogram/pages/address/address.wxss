@@ -1,0 +1,39 @@
+.revice_address_row .address_btn {
+  padding: 20rpx;
+}
+.revice_address_row .address_btn button {
+  width: 60%;
+}
+.revice_address_row .user_info_row {
+  display: flex;
+  padding: 20rpx;
+ 
+
+}
+.revice_address_row .user_info_row .user_info {
+  flex: 2;
+  height: 80vh;
+  font-size: 40rpx;
+  padding-left: 10rpx;
+  font-weight:bold;
+}
+.revice_address_row .user_info_row .user_phone {
+  flex: 2;
+  text-align: start;
+  padding: 30rpx 0;
+
+}
+.tebie {
+  padding: 30rpx 0;
+}
+.active {
+  position: absolute;
+  bottom: 0rpx;
+  width: 100%;
+  height: 85vh;
+  background-image: url("//bpic.588ku.com/element_origin_min_pic/19/05/24/6febeac7f426429de014361bac38a577.jpg");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  filter: blur(7px);
+  z-index: -1;
+}

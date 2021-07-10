@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+  "SearcchInput":"../../components/SearcchInput/SearcchInput",
+  "Tabs":"../../components/Tabs/Tabs"
+},
+  "navigationBarTitleText": "优购列表"
+}

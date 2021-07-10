@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "SearcchInput":"../../components/SearcchInput/SearcchInput"
+  },
+  "navigationBarTitleText": "优购首页"
+
+}
